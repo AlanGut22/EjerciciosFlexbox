@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	font-family: Arial, sans-serif;
+}
+
+header,
+footer {
+	background-color: #eee;
+	text-align: center;
+	padding: 2rem;
+}
+
+main {
+	display: flex;
+	height: 80vh;
+}
+
+nav,
+article,
+aside {
+	padding: 1.3rem 0;
+}
+
+nav {
+	background-color: #ccc;
+	width: 25%;
+}
+
+nav p {
+	padding-left: 1rem;
+}
+
+article {
+	background-color: #999;
+	width: 50%;
+}
+
+article p{
+	padding-top: 1.5rem;
+}
+
+aside {
+	background-color: #ccc;
+	width: 25%;
+}
+
+aside p {
+	padding-left: 1rem;
+}

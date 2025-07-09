@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 20rem;
+	color: #7a7d81;
+}
+
+ul{
+	list-style: none;
+	display: flex;
+}
+
+li{
+	margin: 0 1rem;
+}
+
+.idioma li{
+	width: 2.7rem;
+	height: 2.7rem;
+	margin: 0 0.5rem;
+	line-height: 2.7rem;
+	text-align: center;
+	background-color: #939393;
+	color: white;
+	
+}
